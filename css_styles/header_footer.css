@@ -1,0 +1,22 @@
+.img-fluid{
+  max-width: 140px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+a.header_link{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #CB212E;
+  text-align: center;
+  text-decoration:none;
+}
+a:hover,a:active{
+   border-bottom: 4px solid currentColor;
+}
+footer{
+  background-color: #24272E;
+}
+footer p,h2{
+  color: white;
+}
