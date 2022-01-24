@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .img-fluid{
   max-width: 140px;
   display: block;
@@ -19,4 +20,16 @@ footer{
 }
 footer p,h2{
   color: white;
+}
+a {
+  color: #CB212E;
+  font-family: 'Roboto', sans-serif;
+}
+
+.paddo {
+  padding: 5%;
+}
+
+.margo {
+  margin: 5%;
 }
