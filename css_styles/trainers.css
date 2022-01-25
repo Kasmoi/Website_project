@@ -1,14 +1,15 @@
 body {
     background-color: rgb(235, 235, 235);
+    font-family: Roboto;
 }
 .container {
     margin-top: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
 }
 .vertical-center {
     min-height: 50%;
     min-height: 50vh;
-  
+
     display: flex;
     align-items: center;
   }
@@ -23,4 +24,25 @@ body {
     background-color: #24272E;
     color: whitesmoke;
     padding: 1%;
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
 }
