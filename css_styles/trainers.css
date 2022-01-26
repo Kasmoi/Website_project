@@ -1,11 +1,4 @@
-body {
-    background-color: rgb(235, 235, 235);
-    font-family: Roboto;
-}
-.container {
-    margin-top: 5%;
-    margin-bottom: 30%;
-}
+
 .vertical-center {
     min-height: 50%;
     min-height: 50vh;
@@ -14,16 +7,17 @@ body {
     align-items: center;
   }
 .trainerpic {
-    position: absolute;
-    margin: 2%;
+  margin: 10px;
     border: 10px solid #CB212E;
 }
+.trainerpic{
+  height: 300px;
+}
 .trainer_text {
-    width: 400px;
-    height: 300px;
     background-color: #24272E;
     color: whitesmoke;
     padding: 1%;
+    margin-bottom: 16px;
 }
 /* Display list items side by side */
 ul.breadcrumb li {
@@ -45,4 +39,37 @@ ul.breadcrumb li a {
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
   color: #01447e;
+}
+/* Divider */
+
+.divider{
+  height: 200px;
+  width: 100%;
+  color:var(--white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 0;  }
+
+.divider p{
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 0;
+  letter-spacing: 0.1rem;
+}
+.divider p:first-child{
+  padding-left: 4px;
+  padding-top: 6px;
+}
+.divider p:last-child{
+  padding-left: 8px;
+}
+.dvr-img-01 {
+  background-image: url(../images/divider-background-01.jpg);
+}
+
+.dvr-img-02 {
+  background-image: url(../images/divider-background-02.jpg);
 }
